@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "84882208026",
+    "project_id": "medbuddy-1372b",
+    "storage_bucket": "medbuddy-1372b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84882208026:android:d0b27e78353b7c503768a3",
+        "android_client_info": {
+          "package_name": "com.medBuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84882208026-a3ckgjgnm2g21otfjqcof92gn2u0fgpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medBuddy",
+            "certificate_hash": "14b625275d62cd1ad1f5abb31fdb67598a7e18bd"
+          }
+        },
+        {
+          "client_id": "84882208026-10nhs9l1ur0u8frmm352u2iio5r49f24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb1NPqUy-qI9wUVjpV8_flCHaU0C1uOEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84882208026-10nhs9l1ur0u8frmm352u2iio5r49f24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

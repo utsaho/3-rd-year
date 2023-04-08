@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bloodView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+    android:clickable="true">
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="30px"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/donorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:text="Hare Krishna"/>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:id="@+id/uid"
+                />
+            <TextView
+                android:id="@+id/donorBloodGrp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20dp"
+                android:text="Krishna"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

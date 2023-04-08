@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MedBuddy</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="sign_in_text">Sign in to continue</string>
+    <string name="user_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="no_acc_text">New to MedBuddy?</string>
+    <string name="register_text">Join Us!</string>
+    <string name="random">Random</string>
+
+
+    <string name="userName">Prokash Paul Pollob</string>
+    <string name="title_activity_title">Title</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+
+    <!--    utsho's variable-->
+    <string name="loading_title">Loading...</string>
+    <string name="web_client_id">84882208026-q8d8g3q6grm8kpb4p1b9uujibna38kp7.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1183574852529806</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_location">Location</string>
+
+    <string-array name="blood_group">
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+</resources>

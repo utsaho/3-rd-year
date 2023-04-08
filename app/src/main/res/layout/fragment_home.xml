@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/login_page"
+    android:orientation="vertical"
+    android:paddingVertical="15px"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/srchdr"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginVertical="20px"
+        app:cardElevation="15px"
+        app:cardCornerRadius="10px"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/searchdoctor5"
+            android:scaleType="fitXY"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginVertical="20px"
+        app:cardElevation="15px"
+        app:cardCornerRadius="10px"
+        app:shapeAppearanceOverlay="@style/benner"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/abmulance"
+            android:scaleType="fitXY"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginVertical="20px"
+        app:cardElevation="15px"
+        app:cardCornerRadius="10px"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/getblood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/getblood"
+            app:shapeAppearanceOverlay="@style/benner"
+            android:scaleType="fitXY"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/srchHsptl"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginVertical="20px"
+        app:cardElevation="15px"
+        app:cardCornerRadius="10px"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hospitals"
+            app:shapeAppearanceOverlay="@style/benner"
+            android:scaleType="fitXY"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

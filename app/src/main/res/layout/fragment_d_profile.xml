@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drProfileFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    tools:context=".DProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttom_corner"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingVertical="40dp"
+
+
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/drPImage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ppp"
+            app:shapeAppearanceOverlay="@style/circle"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:translationY="-80px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop ="15dp"
+        android:paddingVertical="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:background="@color/black"
+        >
+
+        <TextView
+            android:id="@+id/headName"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="60dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="cursive"
+            android:text="Hare Krishna"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="10dp"
+            android:translationY="-20dp"
+            android:layout_marginHorizontal="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:scrollbarSize="10px">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prokash Paul Pollob"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+                     <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Designation"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPDes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MBBS"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+                     <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Department"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPDept"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cardiologist"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Visiting Day"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPVDay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SAT, SUN, FRI, MON"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Visiting Time"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPVTIME"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10:00AM-12:00PM, 4:00PM-7:00PM"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Visiting Fee"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPVFee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 BDT"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Helpline"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPHl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+8801739738316"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPeml"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="paulprokash08@gmail.com"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        style="@style/CardView"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Medical"
+                            android:textSize="17dp"
+                            android:justificationMode="inter_word" />
+                        <View
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="250dp"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"
+                            />
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/drPMdcl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MAG Osmani Medical Hospital"
+                            android:textSize="17dp"
+                            app:fontFamily="sans-serif"
+                            android:elevation="10dp"
+                            />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
